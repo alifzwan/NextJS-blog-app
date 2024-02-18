@@ -36,33 +36,29 @@
             @media screen and (max-width: 640px) {
                 width: 100%;       
             }   
-            .style {
-                background-color: #57c4ff31;
-            }
-              
-            .fashion {
-                background-color: #da85c731;
-            }
-              
-            .food {
-                background-color: #7fb88133;
-            }
-              
-            .travel {
-                background-color: #ff795736;
-            }
-              
-            .culture {
-                background-color: #ffb04f45;
-            }
-              
-            .coding {
-                background-color: #5e4fff31;
-            }
             .image {
                 border-radius: 50%;
             }
         }
+        .category.style {
+            background-color: #57c4ff31;
+        }
+        .category.fashion {
+            background-color: #da85c731;
+        }
+        .category.food {
+            background-color: #7fb88133;
+        }
+        .category.travel {
+            background-color: #ff795736;
+        }
+        .category.culture {
+            background-color: #ffb04f45;
+        }
+        .category.coding {
+            background-color: #5e4fff31;
+        }
+        
     }
 }
 
