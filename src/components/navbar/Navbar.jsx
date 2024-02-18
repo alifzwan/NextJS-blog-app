@@ -3,6 +3,7 @@ import styles from "./navbar.module.scss"
 import Image from 'next/image'
 import Link from 'next/link'
 import ThemeToggle from '../themeToggle/ThemeToggle'
+import AuthLinks from '../authLinks/AuthLinks'
 
 const Navbar = () => {
   return (
@@ -21,10 +22,11 @@ const Navbar = () => {
 
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/">Homepage</Link>
-        <Link href="/login">Contact</Link>
-        <Link href="/about">About</Link>
-        <Link href="/login">Login</Link>
+        <Link href="/" className={styles.links}>Homepage</Link>
+        <Link href="/" className={styles.links}>Contact</Link>
+        <Link href="/" className={styles.links}>About</Link>
+        <Link href="/" className={styles.links}>Login</Link>
+        <AuthLinks />
       </div>
 
 
