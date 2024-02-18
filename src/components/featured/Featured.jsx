@@ -6,7 +6,7 @@ const Featured = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <b>Hey, Alif here! </b> 
+        <b>Hey, Alif Dev here! </b> 
         Discover my stories and creative idea
       </h1>
       <div className={styles.posts}>
@@ -18,11 +18,11 @@ const Featured = () => {
 
 
         <div className={styles.textContainer}>
-          <h1 className={styles.postsTitle}>Full-Stack Blog App Tutorial</h1>
-          <p className={styles.postsDescription}>
-            Next.js MongoDB Blog App Project Next.js MongoDB Blog App Project Next.js MongoDB Blog App Project Next.js MongoDB Blog App Project Full Course Next.js MongoDB Blog App Project Full Course Next.js MongoDB Blog App Project Full Course
-          </p>
-          <button className={styles.button}>Read More</button>
+            <h1 className={styles.postsTitle}>Full-Stack Blog App Tutorial</h1>
+            <p className={styles.postsDescription}>
+              Next.js MongoDB Blog App Project Next.js MongoDB Blog App Project Next.js MongoDB Blog App Project Next.js MongoDB Blog App Project Full Course Next.js MongoDB Blog App Project Full Course Next.js MongoDB Blog App Project Full Course
+            </p>
+            <button className={styles.button}>Read More</button>
         </div>
 
       </div>
