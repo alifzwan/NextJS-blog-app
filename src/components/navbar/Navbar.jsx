@@ -22,9 +22,9 @@ const Navbar = () => {
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/">Homepage</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">About</Link>
-        <Link href="/">Login</Link>
+        <Link href="/login">Contact</Link>
+        <Link href="/about">About</Link>
+        <Link href="/login">Login</Link>
       </div>
 
 
