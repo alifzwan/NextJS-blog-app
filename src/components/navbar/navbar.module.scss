@@ -36,7 +36,6 @@
         gap: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         flex: 1;
-        color: gray;
         font-size: 20px;
         align-items: center;
         @media screen and (max-width:1280px){
@@ -47,11 +46,7 @@
             display: none;
             justify-content: flex-end;
         }
-        .links:hover {
-            color: white;
-        }
     }
-    
 }
 
 
