@@ -2,8 +2,6 @@
     
     .title {
         margin: 50px 0px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
     }
 
     .categories {
@@ -15,7 +13,6 @@
         .category {
             display: flex;
             align-items: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 20px;
             gap: 10px;
             background-color: #57c4ff31;
@@ -24,7 +21,6 @@
             height: 80px;
             justify-content: center;
             border-radius: 10px;
-            transition-duration: 0.3s;
             @media screen and (max-width: 1280px) {
                 width: 20%;       
             }   
@@ -44,10 +40,7 @@
         .category.style {
             background-color: #57c4ff37;
         }
-        .category.style:hover {
-            color:#57c4ff31;
-            background-color: #31495687;
-        }
+        
         .category.fashion {
             background-color: #da85c731;
         }

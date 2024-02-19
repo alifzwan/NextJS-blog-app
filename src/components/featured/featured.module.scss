@@ -3,8 +3,7 @@
     .title {
         font-size: 96px;
         font-weight: 300;
-        text-align:justify;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
         @media screen and (max-width: 1280px) {
             font-size: 72px;
         }
@@ -43,12 +42,10 @@
             gap: 20px;
             .postsTitle {
                 font-size: 40px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
             .postsDescription {
                 font-size: 20px;
                 font-weight: 300;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 color: var(--softTextColor);
             }
             .button {
@@ -57,7 +54,9 @@
                 border-radius: 10px;
                 width: max-content;
                 cursor: pointer;
+                font-weight: bold;
             }
+           
         }
     }
 }
