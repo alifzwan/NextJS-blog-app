@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    .button {
+        display: flex;
+        flex-direction: row;
+        background-color: crimson;
+        color: white;
+        width: 100px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        padding: 16px;
+        justify-content: center;
+        font-weight: bold;
+        transition-duration: 0.3s;
+    }
+    .button:hover{
+        color: crimson;
+        background-color: white;
+    }
+    
+}
