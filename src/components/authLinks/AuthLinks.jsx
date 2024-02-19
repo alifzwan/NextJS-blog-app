@@ -7,7 +7,7 @@ import Link from 'next/link'
 const AuthLinks = () => {
 
   const [open, setOpen] = useState(false)
-  const status ="authenticated";
+  const status ="notauthenticated";
   
   return (
       <>
@@ -15,8 +15,8 @@ const AuthLinks = () => {
             <Link href="/login" className={styles.link}>Login</Link>
           ):(
           <>
-            <Link href="/write">Write</Link>
-            <span className={styles.link}>Logout</span>
+          <Link href="/write">Write</Link>
+          <span className={styles.link}>Logout</span>
           </>
           )}
 

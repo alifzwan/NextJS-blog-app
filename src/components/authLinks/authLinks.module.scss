@@ -1,6 +1,7 @@
 .link {
     cursor: pointer;
-    @media screen and (max-width:640px){
+    
+    @media screen and (max-width: 640px){
         display: none;
     }
 }
@@ -13,7 +14,7 @@
     cursor: pointer;
     display: none;
 
-    @media screen and (max-width:640px){
+    @media screen and (max-width: 640px){
         display: flex;
     }
 
