@@ -3,53 +3,61 @@
     align-items: center;
     justify-content: space-between;
     height: 100px;
+
+    .social {
+        display: flex;
+        gap:15px;
+        flex: 1;
+        @media screen and (max-width:1024px){
+            display: none;
+        }
+    }
+    .logo {
+        font-weight: bold;
+        flex: 1;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 36px;
+    
+    
+        @media screen and (max-width:1280px){
+            font-size: 32px;
+        }
+        @media screen and (max-width:1024px){
+            text-align: left;;
+        }
+        @media screen and (max-width:768px){
+            font-size: 24px;
+        }
+    }
+    
+    .links {
+        display: flex;
+        gap: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        flex: 1;
+        color: gray;
+        font-size: 20px;
+        align-items: center;
+        @media screen and (max-width:1280px){
+            font-size: 18px;
+            gap: 15px;
+        }
+        @media screen and (max-width:640px){
+            display: none;
+            justify-content: flex-end;
+        }
+        .links:hover {
+            color: white;
+        }
+    }
+    
 }
 
-.social {
-    display: flex;
-    gap:15px;
-    flex: 1;
-    @media screen and (max-width:1024px){
-        display: none;
-    }
-}
-
-.logo {
-    font-weight: bold;
-    flex: 1;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: 36px;
 
 
-    @media screen and (max-width:1280px){
-        font-size: 32px;
-    }
-    @media screen and (max-width:1024px){
-        text-align: left;;
-    }
-    @media screen and (max-width:768px){
-        font-size: 24px;
-    }
-}
 
-.links {
-    display: flex;
-    gap: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    flex: 1;
-    font-size: 20px;
-    align-items: center;
-    @media screen and (max-width:1280px){
-        font-size: 18px;
-        gap: 15px;
-    }
-    @media screen and (max-width:640px){
-        display: none;
-        justify-content: flex-end;
-    }
 
-}
 
 
  
