@@ -13,23 +13,23 @@ const CategoryList = () => {
             <Image src="/style.png" alt="" width={40} height={40} className={styles.image}/>
             style
           </Link>
-          <Link href="/blog?cat=style" className={`${styles.category} ${styles.fashion}`}>
+          <Link href="/blog?cat=fashion" className={`${styles.category} ${styles.fashion}`}>
             <Image src="/fashion.png" alt="" width={40} height={40} className={styles.image}/>
             fashion
           </Link>
-          <Link href="/blog?cat=style" className={`${styles.category} ${styles.food}`}>
+          <Link href="/blog?cat=food" className={`${styles.category} ${styles.food}`}>
             <Image src="/food.png" alt="" width={40} height={40} className={styles.image}/>
             food
           </Link>
-          <Link href="/blog?cat=style" className={`${styles.category} ${styles.travel}`}>
+          <Link href="/blog?cat=travel" className={`${styles.category} ${styles.travel}`}>
             <Image src="/travel.png" alt="" width={40} height={40} className={styles.image}/>
             travel
           </Link>
-          <Link href="/blog?cat=style" className={`${styles.category} ${styles.culture}`}>
+          <Link href="/blog?cat=culture" className={`${styles.category} ${styles.culture}`}>
             <Image src="/culture.png" alt="" width={40} height={40} className={styles.image}/>
             culture
           </Link>
-          <Link href="/blog?cat=style" className={`${styles.category} ${styles.coding}`}>
+          <Link href="/blog?cat=coding" className={`${styles.category} ${styles.coding}`}>
             <Image src="/coding.png" alt="" width={40} height={40} className={styles.image}/>
             coding
           </Link>
