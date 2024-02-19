@@ -10,10 +10,10 @@ const Navbar = () => {
     <div className={styles.container}>
 
       <div className={styles.social}>
-        <Image src="/facebook.png" alt="facebook" width={30} height={30}></Image>
+        <Image src="/facebook.png"  alt="facebook"  width={30} height={30}></Image>
         <Image src="/instagram.png" alt="instagram" width={30} height={30}></Image>
-        <Image src="/tiktok.png" alt="tiktok" width={30} height={30}></Image>
-        <Image src="/youtube.png" alt="youtube" width={30} height={30}></Image>
+        <Image src="/tiktok.png"    alt="tiktok"    width={30} height={30}></Image>
+        <Image src="/youtube.png"   alt="youtube"   width={30} height={30}></Image>
       </div>
 
       <div className={styles.logo}>
