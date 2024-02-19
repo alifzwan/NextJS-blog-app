@@ -30,7 +30,6 @@ const Navbar = () => {
             <Link href="/" className={styles.links}>Home</Link>
             <Link href="/" className={styles.links}>Contact</Link>
             <Link href="/" className={styles.links}>About</Link>
-            <Link href="/login" className={styles.links}>Login</Link>
             <AuthLinks />
         </div>
     </div>
