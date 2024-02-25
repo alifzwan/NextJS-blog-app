@@ -6,26 +6,33 @@ import Link from 'next/link'
 const Card = ({ key, item }) => {
   return (
     <div className={styles.container} key={key}>
-
+        {item.img && (
         <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
+            <Image src={item.img} alt="" fill className={styles.image}/>
         </div>
-
+        )}
         <div className={styles.textContainer}>
+
             <div className={styles.details}>
-                <span className={styles.date}>11.02.2023 - </span>
-                <span className={styles.category}>Culture</span>
+                <span className={styles.date}>
+                    {item.createdAt.substring(0, 10)} - {" "}
+                </span>
+                <span className={styles.category}>
+                    {item.catSlug}
+                </span>
             </div>
-            <Link href="/">
+
+            <Link href={`/posts/${item.slug}`}>
                 <h1>{item.title}</h1>
             </Link>
 
-            <p className={styles.description}>Next.js MongoDB Blext.js MongoDB Blext.js MongoDB Bl
-            ext.js MongoDB Blext.js MongoDB Blext.js MongoDB Blv
-            vext.js MongoDB Blvext.js MongoDB Blext.js MongoDB Bl
+            <p className={styles.description}>
+                {item.desc.substring(0, 60)}
             </p>
             
-            <Link href="/" className={styles.link}>Read More</Link>
+            <Link href={`/posts/${item.slug}`} className={styles.link}>
+                Read More
+            </Link>
         </div>
     </div>
   )
