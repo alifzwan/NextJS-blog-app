@@ -8,10 +8,8 @@ import { useRouter } from 'next/navigation'
 
 const LoginPage = () => {
 
-    const {data, status} = useSession()
-
     const router = useRouter()
-
+    const {data, status} = useSession()
     console.log(data, status)
 
 
@@ -31,11 +29,11 @@ const LoginPage = () => {
                     Sign in with Google
                 </div>
                 <div className={styles.socialButton}>
-                <Image src="/github.png" alt ="" width={50} height={50} className={styles.logo}/>
+                    <Image src="/github.png" alt ="" width={50} height={50} className={styles.logo}/>
                     Sign in with Github
                 </div>
                 <div className={styles.socialButton}>
-                <Image src="/facebook.png" alt ="" width={50} height={50} className={styles.logo}/>
+                    <Image src="/facebook.png" alt ="" width={50} height={50} className={styles.logo}/>
                     Sign in with Facebook
                 </div>
             </div>
