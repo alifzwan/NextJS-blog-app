@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./page.module.scss";
 import React from 'react'
 import Featured from "@/components/featured/Featured";
@@ -16,7 +15,7 @@ const Home = ({searchParams}) => {
       <Featured />
       <CategoryList />
       <div className={styles.content}>
-        <CardList page = {page}/>
+        <CardList page={page}/>
         <Menu />
       </div>
     </div>
