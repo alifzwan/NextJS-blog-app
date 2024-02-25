@@ -3,9 +3,9 @@ import styles from "./card.module.scss"
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Card = () => {
+const Card = ({ key, item }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} key={key}>
 
         <div className={styles.imageContainer}>
             <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
@@ -17,7 +17,7 @@ const Card = () => {
                 <span className={styles.category}>Culture</span>
             </div>
             <Link href="/">
-                <h1>Full-Stack Blog App Tutorial | Next.js MongoDB Blog App Project Full Course</h1>
+                <h1>{item.title}</h1>
             </Link>
 
             <p className={styles.description}>Next.js MongoDB Blext.js MongoDB Blext.js MongoDB Bl
