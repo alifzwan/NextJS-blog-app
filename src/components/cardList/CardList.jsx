@@ -21,7 +21,7 @@ const CardList = async ({page}) => {
   const {posts, count} = await getData(page)
   const POST_PER_PAGE = 2;
 
-  const hasPrevious = POST_PER_PAGE * (page - 1) > 0
+  const hasPrev     = POST_PER_PAGE * (page - 1) > 0
   const hasNext     = POST_PER_PAGE * (page - 1) + POST_PER_PAGE < count
 
   return (
@@ -35,7 +35,7 @@ const CardList = async ({page}) => {
         ))}
       </div>
       
-      <Pagination page = {page} hasPrevious={hasPrevious} hasNext={hasNext} />
+      <Pagination page = {page} hasPrev={hasPrev} hasNext={hasNext} />
     </div>
   )
 }
