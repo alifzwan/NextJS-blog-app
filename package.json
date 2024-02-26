@@ -12,6 +12,7 @@
     "@auth/prisma-adapter": "^1.4.0",
     "@prisma/client": "^5.10.2",
     "dotenv": "^16.4.5",
+    "firebase": "^10.8.0",
     "ldrs": "^1.0.1",
     "mongodb": "^6.3.0",
     "next": "14.1.0",
@@ -20,7 +21,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-quill": "^2.0.0",
-    "sass": "^1.71.0"
+    "sass": "^1.71.0",
+    "swr": "^2.2.5"
   },
   "devDependencies": {
     "@types/node": "^20.11.20",
