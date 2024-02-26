@@ -67,7 +67,7 @@ const SinglePage = async ({params}) => {
                   />
                     
                   <div className={styles.comments}>
-                    <Comments />
+                    <Comments postSlug={slug}/>
                   </div>
               </div>
 
